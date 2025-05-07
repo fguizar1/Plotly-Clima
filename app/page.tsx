@@ -4,9 +4,9 @@ import React, { useState } from "react";
 
 const Page = () => {
   const charts = [
-    { id: 1, name: "Gráfico 1", file: "grafico1.html" },
-    { id: 2, name: "Gráfico 2", file: "grafico2.html" },
-    { id: 3, name: "Gráfico 3", file: "grafico3.html" },
+    { id: 1, name: "Gráfico 1", file: "Grafico1.html" },
+    { id: 2, name: "Gráfico 2", file: "Grafico2.html" },
+    { id: 3, name: "Gráfico 3", file: "Grafico3.html" },
   ];
 
   const [selectedChart, setSelectedChart] = useState(charts[0]);
